@@ -149,8 +149,6 @@
         _menuView.frame = CGRectMake(originX,old.origin.y, 0,0);
         _rowImg.alpha = 0.0;
     } completion:^(BOOL finished) {
-        [_rowImg removeFromSuperview];
-        [_menuView removeFromSuperview];
         [self removeFromSuperview];
     }];
 }
